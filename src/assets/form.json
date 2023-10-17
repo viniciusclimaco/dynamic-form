@@ -1,0 +1,26 @@
+[
+  {
+    "type": "text",
+    "label": "Nome",
+    "name": "nome"
+  },
+  {
+    "type": "select",
+    "label": "Cidade",
+    "name": "cidade",
+    "options": [
+      "São Paulo",
+      "Rio de Janeiro",
+      "Belo Horizonte"
+    ]
+  },
+  {
+    "type": "radio",
+    "label": "Gênero",
+    "name": "genero",
+    "options": [
+      "Masculino",
+      "Feminino"
+    ]
+  }
+]

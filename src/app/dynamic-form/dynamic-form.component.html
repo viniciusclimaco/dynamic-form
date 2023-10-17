@@ -1,5 +1,5 @@
 <form [formGroup]="form" (ngSubmit)="onSubmit()">
-  <div *ngFor="let field of fields">
+  <div *ngFor="let field of config.fields">
     <label [for]="field.name">{{ field.label }}</label>
 
     <input *ngIf="field.type === 'text'" [id]="field.name" [formControlName]="field.name" type="text">

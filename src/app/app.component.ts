@@ -8,13 +8,13 @@ import { DataService } from './data.service';
 })
 export class AppComponent implements OnInit {
 
-  formFields = [];
+  config: any = {};
 
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
     this.dataService.getFormFields().subscribe(data => {
-      this.formFields = data;
+      this.config = data;
     });
   }
 }
